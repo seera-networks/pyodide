@@ -4,4 +4,15 @@
   "image": "pyodide/pyodide-env:20240928-chrome127-firefox128",
   "remoteUser": "root",
   "onCreateCommand": ".devcontainer/onCreate-docker.sh"
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "seera-networks/arro3": {
+          "permissions": {
+            "issues": "write"
+          }
+        }
+      }
+    }
+  }
 }
